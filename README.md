@@ -35,10 +35,10 @@ Ensure you have the following:
 
 ## Setting Up Playwright
 
-1. **Clone the following zip code**
+1. **Clone the git repo**
 
 2. **Install node modules**
-   - cd actuation-scripts
+   - cd actuation-testing-script
    - npm install
 
 ## Modifying the Playwright Script
