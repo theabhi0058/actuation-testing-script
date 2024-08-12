@@ -1,0 +1,15 @@
+{
+  "name": "@amzn/actuation-scripts",
+  "version": "1.0.0",
+  "main": "auth-function.js",
+  "scripts": {
+    "start": "node playwrite.js"
+  },
+  "keywords": [],
+  "author": "Abhishek Sharma",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "playwright": "^1.45.3"
+  }
+}
