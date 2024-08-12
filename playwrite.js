@@ -5,8 +5,8 @@ const WEBISTE_URL = 'https://your-website-domain.com';
 
 (async () => {
   // Open the browser
-//   const browser = await chromium.launch({ headless: false, devtools: true }); // Set headless: true for headless mode
-  const browser = await chromium.launch({ });
+  const browser = await chromium.launch({ headless: false, devtools: true }); // Set headless: true for headless mode
+  // const browser = await chromium.launch({ });
   const context = await browser.newContext();
   const page = await context.newPage();
 
