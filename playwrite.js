@@ -23,6 +23,7 @@ const WEBISTE_URL = 'https://your-website-domain.com';
       const SESSION_COOKIE_API_URL = 'https://your-website-domain.com/api/session-cookies';
       const ACCESS_TOKEN = 'ACCESS_TOKEN';
 
+      // Note: you you api accept accessToken differently e.g. in headers, then refactor the below api call.
       const response = await fetch(SESSION_COOKIE_API_URL, {
         method: "POST",
         credentials: "include",
